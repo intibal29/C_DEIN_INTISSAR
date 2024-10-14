@@ -3,6 +3,6 @@ module org.example.c {
     requires javafx.fxml;
 
 
-    opens org.example.c to javafx.fxml;
-    exports org.example.c;
+    opens org.example.C to javafx.fxml;
+    exports org.example.C;
 }
