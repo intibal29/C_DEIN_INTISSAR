@@ -1,0 +1,47 @@
+@options
+@packages
+@argfile
+--class-path
+'/home/dm2-ssd/.m2/repository/org/openjfx/javafx-controls/22.0.1/javafx-controls-22.0.1.jar:/home/dm2-ssd/.m2/repository/org/openjfx/javafx-graphics/22.0.1/javafx-graphics-22.0.1.jar:/home/dm2-ssd/.m2/repository/org/openjfx/javafx-base/22.0.1/javafx-base-22.0.1.jar:/home/dm2-ssd/.m2/repository/org/openjfx/javafx-fxml/22.0.1/javafx-fxml-22.0.1.jar'
+--module-path
+'/home/dm2-ssd/IdeaProjects/C/target/classes:/home/dm2-ssd/.m2/repository/org/openjfx/javafx-graphics/22.0.1/javafx-graphics-22.0.1-linux.jar:/home/dm2-ssd/.m2/repository/org/openjfx/javafx-fxml/22.0.1/javafx-fxml-22.0.1-linux.jar:/home/dm2-ssd/.m2/repository/org/openjfx/javafx-controls/22.0.1/javafx-controls-22.0.1-linux.jar:/home/dm2-ssd/.m2/repository/org/openjfx/javafx-base/22.0.1/javafx-base-22.0.1-linux.jar'
+--patch-module
+org.example.c='/home/dm2-ssd/IdeaProjects/C/src/main/java'
+-encoding
+'UTF-8'
+-protected
+-source
+'22'
+--module-source-path
+'/home/dm2-ssd/IdeaProjects/C/target/site/apidocs/src'
+-Xdoclint:none
+-author
+-bottom
+'Copyright &#169; 2024. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/dm2-ssd/IdeaProjects/C/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'c 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'c 1.0-SNAPSHOT API'
+org.example.C
+'/home/dm2-ssd/IdeaProjects/C/src/main/java/module-info.java'
+/home/dm2-ssd/IdeaProjects/C/target/site/apidocs/allclasses-index.html = 1729165480943
+/home/dm2-ssd/IdeaProjects/C/target/site/apidocs/allpackages-index.html = 1729165480947
+/home/dm2-ssd/IdeaProjects/C/target/site/apidocs/tag-search-index.js = 1729165480947
+/home/dm2-ssd/IdeaProjects/C/target/site/apidocs/help-doc.html = 1729165480959
+/home/dm2-ssd/IdeaProjects/C/target/site/apidocs/overview-tree.html = 1729165480931
+/home/dm2-ssd/IdeaProjects/C/target/site/apidocs/search.html = 1729165480955
+/home/dm2-ssd/IdeaProjects/C/target/site/apidocs/index-all.html = 1729165480955
+/home/dm2-ssd/IdeaProjects/C/target/site/apidocs/member-search-index.js = 1729165480947
+/home/dm2-ssd/IdeaProjects/C/target/site/apidocs/index.html = 1729165480959
+/home/dm2-ssd/IdeaProjects/C/target/site/apidocs/type-search-index.js = 1729165480947
+/home/dm2-ssd/IdeaProjects/C/target/site/apidocs/module-search-index.js = 1729165480947
+/home/dm2-ssd/IdeaProjects/C/target/site/apidocs/element-list = 1729165480903
+/home/dm2-ssd/IdeaProjects/C/target/site/apidocs/package-search-index.js = 1729165480947

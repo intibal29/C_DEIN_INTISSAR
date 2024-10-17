@@ -23,7 +23,7 @@
         <Text layoutX="11.0" layoutY="153.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apellidos" />
         <Text layoutX="14.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Edad" />
         <Button fx:id="btnAgregarPersona" layoutX="15.0" layoutY="338.0" mnemonicParsing="false" onAction="#agregarPersona" text="Agregar Persona" />
-        <Button fx:id="btnModificarPersona" layoutX="120.0" layoutY="338.0" mnemonicParsing="false" onAction="#modificarPersona" text="Modificar" />
-        <Button fx:id="btnEliminarPersona" layoutX="225.0" layoutY="338.0" mnemonicParsing="false" onAction="#eliminarPersona" text="Eliminar" />
+        <Button fx:id="btnModificarPersona" layoutX="350.0" layoutY="400.0" mnemonicParsing="false" onAction="#modificarPersona" text="Modificar" />
+        <Button fx:id="btnEliminarPersona" layoutX="425.0" layoutY="400.0" mnemonicParsing="false" onAction="#eliminarPersona" text="Eliminar" />
     </children>
 </AnchorPane>

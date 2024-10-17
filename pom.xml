@@ -15,7 +15,6 @@
   </properties>
 
   <dependencies>
-
     <dependency>
       <groupId>org.openjfx</groupId>
       <artifactId>javafx-controls</artifactId>
@@ -26,7 +25,6 @@
       <artifactId>javafx-fxml</artifactId>
       <version>22.0.1</version>
     </dependency>
-
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-api</artifactId>
@@ -58,7 +56,6 @@
         <version>0.0.8</version>
         <executions>
           <execution>
-            <!-- Default configuration for running with: mvn clean javafx:run -->
             <id>default-cli</id>
             <configuration>
               <mainClass>org.example.C/org.example.C.HelloApplication</mainClass>
@@ -75,11 +72,13 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-javadoc-plugin</artifactId>
-        <version>3.3.1</version> <!-- Asegúrate de usar una versión adecuada -->
+        <version>3.3.1</version>
         <configuration>
-          <failOnError>false</failOnError> <!-- Opcional: evitar que falle si hay errores en la documentación -->
-          <source>22</source> <!-- Establecer la versión de Java -->
-          <!-- Enlace a la API de Java -->
+          <failOnError>false</failOnError>
+          <source>22</source>
+          <additionalOptions>
+            <additionalOption>-Xdoclint:none</additionalOption> <!-- Desactiva validaciones si es necesario -->
+          </additionalOptions>
         </configuration>
       </plugin>
     </plugins>
