@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Dialog xmlns:fx="http://javafx.com/fxml" fx:controller="org.example.C.AddPersonDialogController">
+    <DialogPane prefWidth="300" prefHeight="200">
+        <content>
+            <VBox spacing="10">
+                <TextField fx:id="txtNombre" promptText="Nombre"/>
+                <TextField fx:id="txtApellidos" promptText="Apellidos"/>
+                <TextField fx:id="txtEdad" promptText="Edad"/>
+            </VBox>
+        </content>
+        <ButtonBar>
+            <Button type="cancel" text="Cancelar"/>
+            <Button type="ok" text="Guardar"/>
+        </ButtonBar>
+    </DialogPane>
+</Dialog>
